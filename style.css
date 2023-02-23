@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+html, body {
+  background: #2980B9;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+}
+
+.heading {
+  margin: 50px 0;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.ville {
+  text-transform: capitalize;
+  font-size: 3em;
+  font-family: 'Pacifico', cursive;
+}
+
+.temperature {
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+.temp_min_max {
+  font-style: italic;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+.wind {
+  font-style: italic;
+  margin-bottom: 30px;
+  font-size: 1.3em;
+}
+
+.changer {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background: rgba(178, 223, 251, .3);
+  width: fit-content;
+  padding: 20px;
+  margin: auto;
+  cursor: pointer;
+}
